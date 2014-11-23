@@ -1,0 +1,19 @@
+{
+  "name": "send-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Denis Evsyukov <denis@evsyukov.org>",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^7.5.2",
+    "mailgun-js": "^0.6.7"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
